@@ -1,8 +1,15 @@
-# require 'open-uri'
-# require 'json'
+require 'open-uri'
+require 'json'
 
 class ForecastsController < ApplicationController
   def location
+    @address = ["address"]
+    @lat = ["lat"]
+    @long = ["long"]
+    @current = ["current"]
+    @hourly_outlook = ["hourly_outlook"]
+    @daily_outlook = ["daily_outlook"]
+
 
 # Inside the location action, do all the work you need to
 
