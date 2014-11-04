@@ -1,5 +1,5 @@
-require 'open-uri'
-require 'json'
+# require 'open-uri'
+# require 'json'
 
 class ForecastsController < ApplicationController
   def location
@@ -12,6 +12,7 @@ class ForecastsController < ApplicationController
 # place any values that you want to show the user in instance variables
 # write some HTML around the instance variables in the view template
 
+  render 'location'
 
   end
 
